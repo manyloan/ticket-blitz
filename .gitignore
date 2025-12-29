@@ -1,0 +1,27 @@
+# --- IDEs & OS ---
+.idea/
+.vscode/
+.DS_Store
+*.swp
+
+# --- Java (Core) ---
+core-java/target/
+core-java/*.class
+core-java/.mvn/
+core-java/mvnw
+core-java/mvnw.cmd
+
+# --- Golang (Gateway) ---
+gateway-go/bin/
+gateway-go/gateway-go     # Binário compilado (Linux/Mac)
+gateway-go/gateway-go.exe # Binário compilado (Windows)
+gateway-go/vendor/
+
+# --- Node/React (Frontend) ---
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+
+# --- Docker ---
+.docker/

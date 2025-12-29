@@ -1,0 +1,11 @@
+{
+  "eventId": "550e8400-e29b-41d4-a716-446655440000",
+  "userId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "quantity": 1,
+  "timestamp": "2025-12-29T20:00:00Z",
+  "idempotencyKey": "user_123_event_456_timestamp_789", 
+  "paymentMethod": {
+    "type": "CREDIT_CARD",
+    "token": "tok_visa_1234" 
+  }
+}
